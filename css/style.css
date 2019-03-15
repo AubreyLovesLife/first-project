@@ -58,9 +58,15 @@ footer {
 /*---------- TABLET ----------*/
 /* Change the background colors below */
 
-@media (min-width: 768px) {
+@media (min-width: 768px) AND (max-width: 1199px){
   header {
     background-color: blue;
+  }
+
+  .col-3 {
+    width: 50%;
+    height: 320px;
+    float: left;
   }
 
   #column-1 {
@@ -68,11 +74,12 @@ footer {
   }
 
   #column-2 {
-    background-color: violet;
+    background-color: violet; 
   }
 
   #column-3 {
     background-color: plum;
+    width: 100%;
   }
 
   footer {
@@ -86,6 +93,12 @@ footer {
 @media (min-width: 1200px) {
   header {
     background-color: yellowgreen;
+  }
+
+  .col-3 {
+    width: 33.33%;
+    height: 320px;
+    float: left;
   }
 
   #column-1 {
